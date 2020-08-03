@@ -1,0 +1,13 @@
+/home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.csprojAssemblyReference.cache
+/home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.AssemblyInfoInputs.cache
+/home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.AssemblyInfo.cs
+/home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.csproj.CoreCompileInputs.cache
+/home/phillip/Repos/C#/Virtual-Pet/bin/Debug/netcoreapp3.1/Virtual-Pet
+/home/phillip/Repos/C#/Virtual-Pet/bin/Debug/netcoreapp3.1/Virtual-Pet.deps.json
+/home/phillip/Repos/C#/Virtual-Pet/bin/Debug/netcoreapp3.1/Virtual-Pet.runtimeconfig.json
+/home/phillip/Repos/C#/Virtual-Pet/bin/Debug/netcoreapp3.1/Virtual-Pet.runtimeconfig.dev.json
+/home/phillip/Repos/C#/Virtual-Pet/bin/Debug/netcoreapp3.1/Virtual-Pet.dll
+/home/phillip/Repos/C#/Virtual-Pet/bin/Debug/netcoreapp3.1/Virtual-Pet.pdb
+/home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.dll
+/home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.pdb
+/home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.genruntimeconfig.cache
