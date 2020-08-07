@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4MvV6L2AV0xeqeU7X2teorNiiXFCuVd2Z8XryYY8b8cYb08D3p6hbHLt1nuMJS1f+blJjWJ8JgrCR7RrEsBTig==",
+  "dgSpecHash": "ziqNdZBgnT2855XPYaKFiHuvI3Kintw06FLqu/iMpL0SqOUwK9iavoWpYXZms9GF5hMg3709rRgbiNlirowbWg==",
   "success": true,
   "projectFilePath": "/home/phillip/Repos/C#/Virtual-Pet/Virtual-Pet.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/phillip/.nuget/packages/sharprompt/2.0.0-preview4/sharprompt.2.0.0-preview4.nupkg.sha512",
+    "/home/phillip/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

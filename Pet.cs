@@ -1,11 +1,13 @@
 using System;
+using Sharprompt;
 
 namespace Virtual_Pet {
     public class Pet 
     {
         public static void Hello()
         {
-            Console.WriteLine("I am the pet class.");
+            var petType = Prompt.Select("What kind of pet am I?", new[] {"Dog", "Cat"});
+            Console.WriteLine(petType);
         }
     }
 }

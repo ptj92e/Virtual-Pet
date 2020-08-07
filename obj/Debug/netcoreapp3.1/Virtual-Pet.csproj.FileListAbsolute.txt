@@ -11,3 +11,6 @@
 /home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.dll
 /home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.pdb
 /home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.genruntimeconfig.cache
+/home/phillip/Repos/C#/Virtual-Pet/obj/Debug/netcoreapp3.1/Virtual-Pet.csproj.CopyComplete
+/home/phillip/Repos/C#/Virtual-Pet/bin/Debug/netcoreapp3.1/Sharprompt.dll
+/home/phillip/Repos/C#/Virtual-Pet/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
