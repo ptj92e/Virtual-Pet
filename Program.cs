@@ -8,11 +8,8 @@ namespace Virtual_Pet
         static void Main(string[] args)
         {
             var name = Prompt.Input<string>("What is your name?");
-            Console.WriteLine(name);
-            Console.WriteLine("Hello World!");
-            Game.Init();
-            Player.Greet();
-            Pet.Hello();
+            Player player = new Player(name);
+            Console.WriteLine(player.Name);
         }
     }
 }
