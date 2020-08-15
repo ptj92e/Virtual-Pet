@@ -29,10 +29,22 @@ namespace Virtual_Pet {
                 // If the input is longer than 1 character, then the method creates a new Player
                 Player player = new Player(name);
                 Console.WriteLine(player.Name);
+                Game.newPet();
             }
         }
         // Method to create a new Pet
+        public static void newPet() {
+            var dogName = Prompt.Input<string>("What is your dog's name?");
+            var catName = Prompt.Input<string>("What is your cat's name?");
 
+            Dog dog = new Dog(dogName);
+            Cat cat = new Cat(catName);
+
+            Console.WriteLine(dog.Name);
+            Console.WriteLine(dog.Hunger);
+            Console.WriteLine(cat.Name);
+            Console.WriteLine(cat.Boredom);
+        }
         // Method to handle User's Input
     }
 }
