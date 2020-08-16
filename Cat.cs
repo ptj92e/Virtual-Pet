@@ -10,12 +10,5 @@ namespace Virtual_Pet {
             this.Boredom = 50;
             this.Sleepiness = 50;
         }
-        // Method to play with lazer pointer
-        public void lazerPointer() {
-            this.Boredom = 100;
-            this.Hunger -= 20;
-            this.Thirst -= 20;
-            this.Sleepiness -= 40;
-        }
     }
 }

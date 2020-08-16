@@ -34,16 +34,20 @@ namespace Virtual_Pet {
         }
         // Method to create a new Pet
         public static void newPet() {
-            var dogName = Prompt.Input<string>("What is your dog's name?");
-            var catName = Prompt.Input<string>("What is your cat's name?");
-
-            Dog dog = new Dog(dogName);
-            Cat cat = new Cat(catName);
-
-            Console.WriteLine(dog.Name);
-            Console.WriteLine(dog.Hunger);
-            Console.WriteLine(cat.Name);
-            Console.WriteLine(cat.Boredom);
+            // Creating two variables for type of pet and name of pet
+            var petType = Prompt.Select("What kind of pet would you like to adopt?", new[] {"Dog", "Cat"});
+            var petName = Prompt.Input<string>("What would you like to name your pet?");
+            // If the pet's type is a dog, it creates a new dog
+            if (petType == "Dog") {
+                Dog pet = new Dog(petName);
+                Console.Clear();
+                pet.printStats();
+            // If the pet's type is not a dog, it creates a new cat
+            } else {
+                Cat pet = new Cat(petName);
+                Console.Clear();
+                pet.printStats();
+            }
         }
         // Method to handle User's Input
     }
