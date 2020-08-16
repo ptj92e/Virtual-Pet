@@ -10,6 +10,12 @@ namespace Virtual_Pet {
             this.Boredom = 50;
             this.Sleepiness = 50;
         }
-        //Define specific methods for the Dog class
+        // Method to play fetch
+        public void fetch() {
+            this.Boredom = 100;
+            this.Hunger -= 20;
+            this.Thirst -= 20;
+            this.Sleepiness -= 40;
+        }
     }
 }
